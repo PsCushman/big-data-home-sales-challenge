@@ -1,1 +1,1 @@
-# big-data-home-sales-challenge
+# Big Data Challenge - A Home with a View
