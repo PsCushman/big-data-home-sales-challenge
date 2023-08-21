@@ -18,12 +18,14 @@
    - What is the "view" rating for homes costing more than or equal to $350,000? Determine the run time for this query, and round off your answer to two decimal places.
 6. Cache your temporary table home_sales.
 7. Check if your temporary table is cached.
-8. Using the cached data, run the query that filters out the view ratings with an average price of greater than or equal to $350,000. Determine the runtime and compare it to uncached runtime. ![Screen Shot 2023-08-17 at 2 52 50 PM](https://github.com/PsCushman/big-data-home-sales-challenge/assets/122395437/58a25442-db71-4f53-b071-2284db8bcfe7)
+8. Using the cached data, run the query that filters out the view ratings with an average price of greater than or equal to $350,000. Determine the runtime and compare it to uncached runtime. ![Screen Shot 2023-08-21 at 2 28 52 PM](https://github.com/PsCushman/big-data-home-sales-challenge/assets/122395437/a0242941-ebc1-4cd2-8e99-20dcc3825033)
+
 
 9. Partition by the "date_built" field on the formatted parquet home sales data.
 10. Create a temporary table for the parquet data. ![Screen Shot 2023-08-17 at 2 53 32 PM](https://github.com/PsCushman/big-data-home-sales-challenge/assets/122395437/e899a3b4-d0b3-4957-a1e7-65f2023a16d4)
 
-11. Run the query that filters out the view ratings with an average price of greater than or equal to $350,000. Determine the runtime and compare it to uncached runtime. ![Screen Shot 2023-08-17 at 2 53 53 PM](https://github.com/PsCushman/big-data-home-sales-challenge/assets/122395437/cffe7380-829a-4f42-be00-81e8ef8bae32)
+11. Run the query that filters out the view ratings with an average price of greater than or equal to $350,000. Determine the runtime and compare it to uncached runtime. 
+![Screen Shot 2023-08-21 at 2 29 32 PM](https://github.com/PsCushman/big-data-home-sales-challenge/assets/122395437/fa12b003-fe74-4d03-a5ea-290e73d8fd84)
 
 12. Uncache the home_sales temporary table.
 13. Verify that the home_sales temporary table is uncached using PySpark.  ![Screen Shot 2023-08-17 at 2 54 36 PM](https://github.com/PsCushman/big-data-home-sales-challenge/assets/122395437/84dd9803-0dab-45ae-8ff7-30e84be851c0)
